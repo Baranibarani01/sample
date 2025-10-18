@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reverse Text Tool</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    input, button {
+      padding: 10px;
+      margin: 10px 0;
+      width: 300px;
+      font-size: 16px;
+    }
+    #output {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Reverse Text Tool</h2>
+
+  <input type="text" id="inputText" placeholder="Enter text here">
+
+  <br>
+  <button onclick="reverseText()">Reverse</button>
+
+  <br>
+  <input type="text" id="output" placeholder="Reversed text will appear here" readonly>
+
+  <script>
+    function reverseText() {
+      const input = document.getElementById("inputText").value;
+      const reversed = input.split("").reverse().join("");
+      document.getElementById("output").value = reversed;
+    }
+  </script>
+
+</body>
+</html>

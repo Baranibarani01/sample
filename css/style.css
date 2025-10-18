@@ -1,0 +1,91 @@
+h1{ color: red;
+  
+}
+
+div
+{
+    border: 1px solid black;
+    padding: 50px;
+    margin: 0px;
+
+}
+#b
+{
+    display:image;
+    width: 25%;
+    vertical-align:baseline;
+  box-sizing: border-box; 
+    margin: 0;
+    padding: 10px;
+    height: 200px;
+    background-color: rgb(196, 180, 209);
+}
+#a  
+{
+
+
+    display: inline-block;
+    width: 80%;
+    vertical-align: baseline;
+      box-sizing: border-box;  
+    margin: 0;
+    padding: 10px;
+    height: 100px;
+    background-color:rgb(199, 185, 185);
+}
+#c
+{
+    display: inline-block;
+    width: 80%;
+    vertical-align: baseline;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 10px;
+    height: 200px;
+    background-color: rgb(185, 173, 165);
+}
+
+#d
+{
+    display: inline-block;
+    width: 50%;
+    vertical-align:baseline;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 10px;
+    height: 200px;
+    background-color: rgb(204, 209, 202);
+}
+#e
+{
+    display: inline-block;
+    width: 50%;
+    vertical-align:baseline;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 10px;
+    height: 200px;
+    background-color: rgb(193, 194, 206);
+}
+#f
+{
+    display: inline-block;
+    width: 50%;
+    vertical-align: baseline;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 10px;
+    height: 200px;
+    background-color: rgb(73, 74, 75);
+}
+#g
+{
+    display: inline-block;
+    width: 50%;
+    vertical-align: baseline;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 10px;
+    height: 200px;
+    background-color: rgb(196, 197, 187);
+}
